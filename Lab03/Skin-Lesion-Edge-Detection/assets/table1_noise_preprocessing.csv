@@ -1,0 +1,12 @@
+Edge Detector,Input Image,Noise Type,Preprocessing,Edge Density
+Sobel,Original,None,None,0.9952
+Sobel,Noisy,Gaussian,None,0.9995
+Sobel,Noisy,Salt & Pepper,None,0.9963
+Sobel,Noisy,Gaussian,Gaussian Filter,0.9987
+Sobel,Noisy,Salt & Pepper,Median Filter,0.9427
+Prewitt,Original,None,None,0.9963
+Laplacian,Original,None,None,0.9598
+LoG,Noisy,Gaussian,Gaussian Filter,0.9106
+Canny,Original,None,Built-in smoothing,0.0137
+Canny,Noisy,Gaussian,Gaussian Filter,0.0182
+Canny,Noisy,Salt & Pepper,Median Filter,0.0073
