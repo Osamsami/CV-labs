@@ -1,0 +1,6 @@
+Image,Best Filter,Edge Method,Area (pixels),Perimeter (pixels)
+Image 1,Gaussian,Canny (50-100),0,0.0
+Image 2,Gaussian,Canny (50-100),893,396.33
+Image 3,Gaussian,Canny (50-100),0,0.0
+Image 4,Gaussian,Canny (50-100),6498,666.04
+Image 5,Gaussian,Canny (50-100),0,0.0
