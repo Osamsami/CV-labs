@@ -1,0 +1,19 @@
+Condition,Model,Accuracy,F1-score,Acc Change,F1 Change
+Original,SVM,0.8583,0.9135,0.0,0.0
+Original,Random Forest,0.8425,0.9091,0.0,0.0
+Brightness (0.6),SVM,0.8346,0.8912,-0.0236,-0.0223
+Brightness (0.6),Random Forest,0.8898,0.9346,0.0472,0.0255
+Brightness (1.5),SVM,0.8583,0.9135,0.0,0.0
+Brightness (1.5),Random Forest,0.8583,0.9174,0.0157,0.0083
+Gaussian Noise (10),SVM,0.7008,0.8224,-0.1575,-0.091
+Gaussian Noise (10),Random Forest,0.7874,0.8811,-0.0551,-0.028
+Gaussian Noise (25),SVM,0.7717,0.87,-0.0866,-0.0435
+Gaussian Noise (25),Random Forest,0.7795,0.8761,-0.063,-0.033
+Blur (5),SVM,0.811,0.8929,-0.0472,-0.0206
+Blur (5),Random Forest,0.7874,0.8811,-0.0551,-0.028
+Blur (9),SVM,0.7874,0.8811,-0.0709,-0.0324
+Blur (9),Random Forest,0.7874,0.8811,-0.0551,-0.028
+Rotation (10),SVM,0.8898,0.9346,0.0315,0.0211
+Rotation (10),Random Forest,0.8661,0.9217,0.0236,0.0126
+Rotation (30),SVM,0.8976,0.9378,0.0394,0.0243
+Rotation (30),Random Forest,0.874,0.9259,0.0315,0.0168

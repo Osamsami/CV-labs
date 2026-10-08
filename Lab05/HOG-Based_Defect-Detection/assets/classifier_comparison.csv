@@ -1,0 +1,4 @@
+,Accuracy,Precision,Recall,F1-score,Train Time (s)
+HOG + SVM,0.8661,0.8807,0.96,0.9187,13.3142
+HOG + Random Forest,0.8504,0.8403,1.0,0.9132,18.2181
+HOG + KNN,0.5039,0.9744,0.38,0.5468,0.2006
