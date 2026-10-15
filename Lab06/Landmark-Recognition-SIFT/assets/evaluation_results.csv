@@ -1,0 +1,27 @@
+Test,Ground truth,Predicted landmark,Best candidate,Keypoints,Reliable matches,RANSAC inliers,Decision,Correct,Time (s)
+Original,Eiffel Tower,Eiffel Tower,Eiffel Tower,827,827,827,Recognized,True,2.621
+Rotated (45 deg),Eiffel Tower,Eiffel Tower,Eiffel Tower,1152,586,570,Recognized,True,3.711
+Resized (50%),Eiffel Tower,Eiffel Tower,Eiffel Tower,237,164,162,Recognized,True,0.774
+Reduced brightness,Eiffel Tower,Eiffel Tower,Eiffel Tower,509,464,463,Recognized,True,1.728
+Different viewpoint,Eiffel Tower,Rejected,Taj Mahal,3000,17,5,Rejected,False,9.108
+Original,Taj Mahal,Taj Mahal,Taj Mahal,337,337,337,Recognized,True,1.275
+Rotated (45 deg),Taj Mahal,Taj Mahal,Taj Mahal,393,210,201,Recognized,True,1.378
+Resized (50%),Taj Mahal,Taj Mahal,Taj Mahal,195,164,159,Recognized,True,0.613
+Reduced brightness,Taj Mahal,Taj Mahal,Taj Mahal,199,185,185,Recognized,True,0.693
+Different viewpoint,Taj Mahal,Taj Mahal,Taj Mahal,1927,156,105,Recognized,True,5.871
+Original,Great Wall of China,Great Wall of China,Great Wall of China,2435,2435,2435,Recognized,True,7.386
+Rotated (45 deg),Great Wall of China,Great Wall of China,Great Wall of China,3000,1518,1512,Recognized,True,9.067
+Resized (50%),Great Wall of China,Great Wall of China,Great Wall of China,686,529,529,Recognized,True,2.128
+Reduced brightness,Great Wall of China,Great Wall of China,Great Wall of China,401,364,364,Recognized,True,1.272
+Different viewpoint,Great Wall of China,Rejected,Eiffel Tower,2430,33,6,Rejected,False,7.289
+Original,Statue of Liberty,Statue of Liberty,Statue of Liberty,3001,3001,3001,Recognized,True,8.987
+Rotated (45 deg),Statue of Liberty,Statue of Liberty,Statue of Liberty,3000,1688,1662,Recognized,True,9.141
+Resized (50%),Statue of Liberty,Statue of Liberty,Statue of Liberty,1090,778,777,Recognized,True,3.319
+Reduced brightness,Statue of Liberty,Statue of Liberty,Statue of Liberty,2153,1972,1968,Recognized,True,6.519
+Different viewpoint,Statue of Liberty,Rejected,Taj Mahal,3000,15,5,Rejected,False,8.972
+Original,Colosseum,Colosseum,Colosseum,3000,3000,3000,Recognized,True,9.034
+Rotated (45 deg),Colosseum,Colosseum,Colosseum,3000,1409,1376,Recognized,True,9.207
+Resized (50%),Colosseum,Colosseum,Colosseum,978,601,593,Recognized,True,2.965
+Reduced brightness,Colosseum,Colosseum,Colosseum,1275,1153,1148,Recognized,True,3.931
+Different viewpoint,Colosseum,Rejected,Great Wall of China,3000,45,8,Rejected,False,8.971
+Landmark not in database,Unknown,Rejected,Taj Mahal,3000,33,5,Rejected,True,9.078
