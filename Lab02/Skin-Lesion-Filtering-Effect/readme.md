@@ -66,7 +66,7 @@ This project investigates how five different spatial-domain image filters impact
 
 ## 🛠️ Reproduction Guide
 
-1. Launch `ISIC2019_SkinLesion_Task02_FilterComparison.ipynb` in Google Colab (GPU runtime required).
+1. Launch `SkinLesionFilteringEffect.ipynb` in Google Colab (GPU runtime required).
 2. Execute all cells sequentially. The dataset handles its own download via `kagglehub` (no API key required).
 3. Checkpoints are automatically synced to Google Drive. In case of interruption, re-running the notebook will automatically detect and skip already completed filter/model iterations.
 
